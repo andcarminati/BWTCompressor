@@ -18,7 +18,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include <stdlib.h>
 #include <stdio.h>
 
-static int compare_index(int a, int b, int size_in, unsigned char* in_data) {
+static inline int compare_index(int a, int b, int size_in, unsigned char* in_data) {
     int i;
 
     for (i = 0; i < size_in; i++) {
